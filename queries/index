@@ -1,2 +1,0 @@
-create index on:Video(id);
-create index on:Suggest(link);
