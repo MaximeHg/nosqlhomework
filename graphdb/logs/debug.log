@@ -1736,3 +1736,506 @@ Storage files: (filename : modification date - size)
 2016-12-13 20:49:20.333+0000 INFO  [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Log pruning complete.
 2016-12-14 11:02:07.589+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 42817755ms.
 2016-12-14 12:58:22.609+0000 WARN  [o.n.k.i.c.MonitorGc] GC Monitor: Application threads blocked for 1912602ms.
+2016-12-14 13:23:18.021+0000 WARN  [o.n.i.p.PageCache] The dbms.memory.pagecache.size setting has not been configured. It is recommended that this setting is always explicitly configured, to ensure the system has a balanced configuration. Until then, a computed heuristic value of 6649028608 bytes will be used instead. 
+2016-12-14 13:23:18.075+0000 INFO  [o.n.k.i.f.CommunityEditionModule] No locking implementation specified, defaulting to 'community'
+2016-12-14 13:23:18.084+0000 INFO  [o.n.k.AvailabilityGuard] Requirement makes database unavailable: Database available
+2016-12-14 13:23:18.088+0000 INFO  [o.n.k.i.DiagnosticsManager] --- INITIALIZED diagnostics START ---
+2016-12-14 13:23:18.088+0000 INFO  [o.n.k.i.DiagnosticsManager] Neo4j Kernel properties:
+2016-12-14 13:23:18.088+0000 INFO  [o.n.k.i.DiagnosticsManager] dbms.connector.http.enabled=true
+2016-12-14 13:23:18.088+0000 INFO  [o.n.k.i.DiagnosticsManager] dbms.security.auth_enabled=true
+2016-12-14 13:23:18.088+0000 INFO  [o.n.k.i.DiagnosticsManager] dbms.logs.http.enabled=false
+2016-12-14 13:23:18.088+0000 INFO  [o.n.k.i.DiagnosticsManager] unsupported.dbms.directories.neo4j_home=C:\Users\HP\nosqlhomework\graphdb
+2016-12-14 13:23:18.088+0000 INFO  [o.n.k.i.DiagnosticsManager] dbms.directories.import=import
+2016-12-14 13:23:18.088+0000 INFO  [o.n.k.i.DiagnosticsManager] unsupported.dbms.edition=community
+2016-12-14 13:23:18.088+0000 INFO  [o.n.k.i.DiagnosticsManager] dbms.connector.bolt.enabled=true
+2016-12-14 13:23:18.088+0000 INFO  [o.n.k.i.DiagnosticsManager] dbms.connector.https.enabled=true
+2016-12-14 13:23:18.088+0000 INFO  [o.n.k.i.DiagnosticsManager] unsupported.dbms.directories.database=C:\Users\HP\nosqlhomework\graphdb
+2016-12-14 13:23:18.088+0000 INFO  [o.n.k.i.DiagnosticsManager] Diagnostics providers:
+2016-12-14 13:23:18.088+0000 INFO  [o.n.k.i.DiagnosticsManager] org.neo4j.kernel.configuration.Config
+2016-12-14 13:23:18.088+0000 INFO  [o.n.k.i.DiagnosticsManager] org.neo4j.kernel.info.DiagnosticsManager
+2016-12-14 13:23:18.088+0000 INFO  [o.n.k.i.DiagnosticsManager] SYSTEM_MEMORY
+2016-12-14 13:23:18.088+0000 INFO  [o.n.k.i.DiagnosticsManager] JAVA_MEMORY
+2016-12-14 13:23:18.088+0000 INFO  [o.n.k.i.DiagnosticsManager] OPERATING_SYSTEM
+2016-12-14 13:23:18.088+0000 INFO  [o.n.k.i.DiagnosticsManager] JAVA_VIRTUAL_MACHINE
+2016-12-14 13:23:18.088+0000 INFO  [o.n.k.i.DiagnosticsManager] CLASSPATH
+2016-12-14 13:23:18.088+0000 INFO  [o.n.k.i.DiagnosticsManager] LIBRARY_PATH
+2016-12-14 13:23:18.088+0000 INFO  [o.n.k.i.DiagnosticsManager] SYSTEM_PROPERTIES
+2016-12-14 13:23:18.088+0000 INFO  [o.n.k.i.DiagnosticsManager] NETWORK
+2016-12-14 13:23:18.088+0000 INFO  [o.n.k.i.DiagnosticsManager] System memory information:
+2016-12-14 13:23:18.088+0000 INFO  [o.n.k.i.DiagnosticsManager] Total Physical memory: 15.92 GB
+2016-12-14 13:23:18.088+0000 INFO  [o.n.k.i.DiagnosticsManager] Free Physical memory: 10.55 GB
+2016-12-14 13:23:18.088+0000 INFO  [o.n.k.i.DiagnosticsManager] Committed virtual memory: 918.86 MB
+2016-12-14 13:23:18.088+0000 INFO  [o.n.k.i.DiagnosticsManager] Total swap space: 18.30 GB
+2016-12-14 13:23:18.088+0000 INFO  [o.n.k.i.DiagnosticsManager] Free swap space: 11.60 GB
+2016-12-14 13:23:18.088+0000 INFO  [o.n.k.i.DiagnosticsManager] JVM memory information:
+2016-12-14 13:23:18.088+0000 INFO  [o.n.k.i.DiagnosticsManager] Free  memory: 370.79 MB
+2016-12-14 13:23:18.088+0000 INFO  [o.n.k.i.DiagnosticsManager] Total memory: 509.00 MB
+2016-12-14 13:23:18.088+0000 INFO  [o.n.k.i.DiagnosticsManager] Max   memory: 3.54 GB
+2016-12-14 13:23:18.088+0000 INFO  [o.n.k.i.DiagnosticsManager] Garbage Collector: PS Scavenge: [PS Eden Space, PS Survivor Space]
+2016-12-14 13:23:18.088+0000 INFO  [o.n.k.i.DiagnosticsManager] Garbage Collector: PS MarkSweep: [PS Eden Space, PS Survivor Space, PS Old Gen]
+2016-12-14 13:23:18.088+0000 INFO  [o.n.k.i.DiagnosticsManager] Memory Pool: Code Cache (Non-heap memory): committed=17.25 MB, used=17.12 MB, max=240.00 MB, threshold=0.00 B
+2016-12-14 13:23:18.088+0000 INFO  [o.n.k.i.DiagnosticsManager] Memory Pool: Metaspace (Non-heap memory): committed=68.50 MB, used=66.97 MB, max=-1.00 B, threshold=0.00 B
+2016-12-14 13:23:18.088+0000 INFO  [o.n.k.i.DiagnosticsManager] Memory Pool: Compressed Class Space (Non-heap memory): committed=11.00 MB, used=10.62 MB, max=1.00 GB, threshold=0.00 B
+2016-12-14 13:23:18.089+0000 INFO  [o.n.k.i.DiagnosticsManager] Memory Pool: PS Eden Space (Heap memory): committed=97.50 MB, used=69.01 MB, max=1.26 GB, threshold=?
+2016-12-14 13:23:18.089+0000 INFO  [o.n.k.i.DiagnosticsManager] Memory Pool: PS Survivor Space (Heap memory): committed=35.00 MB, used=0.00 B, max=35.00 MB, threshold=?
+2016-12-14 13:23:18.089+0000 INFO  [o.n.k.i.DiagnosticsManager] Memory Pool: PS Old Gen (Heap memory): committed=376.50 MB, used=69.20 MB, max=2.66 GB, threshold=0.00 B
+2016-12-14 13:23:18.089+0000 INFO  [o.n.k.i.DiagnosticsManager] Operating system information:
+2016-12-14 13:23:18.089+0000 INFO  [o.n.k.i.DiagnosticsManager] Operating System: Windows 10; version: 10.0; arch: amd64; cpus: 8
+2016-12-14 13:23:18.089+0000 INFO  [o.n.k.i.DiagnosticsManager] Process id: 11028@omn-05
+2016-12-14 13:23:18.089+0000 INFO  [o.n.k.i.DiagnosticsManager] Byte order: LITTLE_ENDIAN
+2016-12-14 13:23:18.089+0000 INFO  [o.n.k.i.DiagnosticsManager] Local timezone: Europe/Paris
+2016-12-14 13:23:18.089+0000 INFO  [o.n.k.i.DiagnosticsManager] JVM information:
+2016-12-14 13:23:18.089+0000 INFO  [o.n.k.i.DiagnosticsManager] VM Name: Java HotSpot(TM) 64-Bit Server VM
+2016-12-14 13:23:18.089+0000 INFO  [o.n.k.i.DiagnosticsManager] VM Vendor: Oracle Corporation
+2016-12-14 13:23:18.089+0000 INFO  [o.n.k.i.DiagnosticsManager] VM Version: 25.73-b02
+2016-12-14 13:23:18.089+0000 INFO  [o.n.k.i.DiagnosticsManager] JIT compiler: HotSpot 64-Bit Tiered Compilers
+2016-12-14 13:23:18.089+0000 INFO  [o.n.k.i.DiagnosticsManager] VM Arguments: [-Dexe4j.semaphoreName=Local\c:_program_files_neo4j_ce_3.1.0_bin_neo4j-ce.exe, -Dexe4j.isInstall4j=true, -Dexe4j.moduleName=C:\Program Files\Neo4j CE 3.1.0\bin\neo4j-ce.exe, -Dexe4j.tempDir=, -Dexe4j.unextractedPosition=0, -Djava.library.path=C:\Users\HP\AppData\Local\Temp\e4jD34E.tmp_dir1481721318\user;C:\Program Files (x86)\Google\Chrome\Application;C:\Python27\;C:\Python27\Scripts;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;c:\Program Files\Intel\WiFi\bin\;c:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\HP\HP Performance Advisor;C:\Program Files\Git\cmd;C:\Program Files\Ethereum 0.9.41\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Users\HP\Downloads\play-1.3.4\play-1.3.4;C:\Program Files\nodejs\;C:\Program Files\OpenSSH\bin;C:\Users\HP\AppData\Local\Microsoft\WindowsApps;C:\Users\HP\AppData\Local\atom\bin;C:\Users\HP\AppData\Roaming\npm;c:\program files\java\jre1.8.0_73\bin;c:\program files\java\jre1.8.0_73\bin, -Dexe4j.consoleCodepage=cp0, -Dinstall4j.launcherId=24, -Dinstall4j.swt=false]
+2016-12-14 13:23:18.089+0000 INFO  [o.n.k.i.DiagnosticsManager] Java classpath:
+2016-12-14 13:23:18.091+0000 INFO  [o.n.k.i.DiagnosticsManager]  [bootstrap] C:\Program Files\Java\jre1.8.0_73\lib\jsse.jar
+2016-12-14 13:23:18.091+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath] C:\Program Files\Neo4j CE 3.1.0\.install4j\i4jruntime.jar
+2016-12-14 13:23:18.091+0000 INFO  [o.n.k.i.DiagnosticsManager]  [bootstrap] C:\Program Files\Java\jre1.8.0_73\classes
+2016-12-14 13:23:18.091+0000 INFO  [o.n.k.i.DiagnosticsManager]  [bootstrap] C:\Program Files\Java\jre1.8.0_73\lib\sunrsasign.jar
+2016-12-14 13:23:18.091+0000 INFO  [o.n.k.i.DiagnosticsManager]  [bootstrap] C:\Program Files\Java\jre1.8.0_73\lib\jce.jar
+2016-12-14 13:23:18.091+0000 INFO  [o.n.k.i.DiagnosticsManager]  [loader.1] file:/C:/Program%20Files/Java/jre1.8.0_73/lib/ext/jfxrt.jar
+2016-12-14 13:23:18.091+0000 INFO  [o.n.k.i.DiagnosticsManager]  [loader.1] file:/C:/Program%20Files/Java/jre1.8.0_73/lib/ext/zipfs.jar
+2016-12-14 13:23:18.091+0000 INFO  [o.n.k.i.DiagnosticsManager]  [bootstrap] C:\Program Files\Java\jre1.8.0_73\lib\resources.jar
+2016-12-14 13:23:18.091+0000 INFO  [o.n.k.i.DiagnosticsManager]  [loader.1] file:/C:/Program%20Files/Java/jre1.8.0_73/lib/ext/sunjce_provider.jar
+2016-12-14 13:23:18.091+0000 INFO  [o.n.k.i.DiagnosticsManager]  [loader.0] file:/C:/Program%20Files/Neo4j%20CE%203.1.0/bin/neo4j-desktop-3.1.0.jar
+2016-12-14 13:23:18.091+0000 INFO  [o.n.k.i.DiagnosticsManager]  [loader.1] file:/C:/Program%20Files/Java/jre1.8.0_73/lib/ext/cldrdata.jar
+2016-12-14 13:23:18.091+0000 INFO  [o.n.k.i.DiagnosticsManager]  [loader.0] file:/C:/Program%20Files/Neo4j%20CE%203.1.0/.install4j/i4jruntime.jar
+2016-12-14 13:23:18.091+0000 INFO  [o.n.k.i.DiagnosticsManager]  [loader.1] file:/C:/Program%20Files/Java/jre1.8.0_73/lib/ext/sunec.jar
+2016-12-14 13:23:18.091+0000 INFO  [o.n.k.i.DiagnosticsManager]  [loader.1] file:/C:/Program%20Files/Java/jre1.8.0_73/lib/ext/jaccess.jar
+2016-12-14 13:23:18.091+0000 INFO  [o.n.k.i.DiagnosticsManager]  [bootstrap] C:\Program Files\Java\jre1.8.0_73\lib\jfr.jar
+2016-12-14 13:23:18.091+0000 INFO  [o.n.k.i.DiagnosticsManager]  [loader.1] file:/C:/Program%20Files/Java/jre1.8.0_73/lib/ext/dnsns.jar
+2016-12-14 13:23:18.091+0000 INFO  [o.n.k.i.DiagnosticsManager]  [bootstrap] C:\Program Files\Java\jre1.8.0_73\lib\rt.jar
+2016-12-14 13:23:18.091+0000 INFO  [o.n.k.i.DiagnosticsManager]  [loader.1] file:/C:/Program%20Files/Java/jre1.8.0_73/lib/ext/sunmscapi.jar
+2016-12-14 13:23:18.091+0000 INFO  [o.n.k.i.DiagnosticsManager]  [loader.1] file:/C:/Program%20Files/Java/jre1.8.0_73/lib/ext/sunpkcs11.jar
+2016-12-14 13:23:18.091+0000 INFO  [o.n.k.i.DiagnosticsManager]  [loader.1] file:/C:/Program%20Files/Java/jre1.8.0_73/lib/ext/localedata.jar
+2016-12-14 13:23:18.091+0000 INFO  [o.n.k.i.DiagnosticsManager]  [loader.1] file:/C:/Program%20Files/Java/jre1.8.0_73/lib/ext/access-bridge-64.jar
+2016-12-14 13:23:18.091+0000 INFO  [o.n.k.i.DiagnosticsManager]  [classpath] C:\Program Files\Neo4j CE 3.1.0\bin\neo4j-desktop-3.1.0.jar
+2016-12-14 13:23:18.091+0000 INFO  [o.n.k.i.DiagnosticsManager]  [bootstrap] C:\Program Files\Java\jre1.8.0_73\lib\charsets.jar
+2016-12-14 13:23:18.091+0000 INFO  [o.n.k.i.DiagnosticsManager]  [loader.1] file:/C:/Program%20Files/Java/jre1.8.0_73/lib/ext/dns_sd.jar
+2016-12-14 13:23:18.091+0000 INFO  [o.n.k.i.DiagnosticsManager]  [loader.1] file:/C:/Program%20Files/Java/jre1.8.0_73/lib/ext/nashorn.jar
+2016-12-14 13:23:18.091+0000 INFO  [o.n.k.i.DiagnosticsManager] Library path:
+2016-12-14 13:23:18.092+0000 INFO  [o.n.k.i.DiagnosticsManager] C:\Users\HP\AppData\Local\Temp\e4jD34E.tmp_dir1481721318\user
+2016-12-14 13:23:18.092+0000 INFO  [o.n.k.i.DiagnosticsManager] C:\Program Files (x86)\Google\Chrome\Application
+2016-12-14 13:23:18.092+0000 INFO  [o.n.k.i.DiagnosticsManager] C:\Python27
+2016-12-14 13:23:18.092+0000 INFO  [o.n.k.i.DiagnosticsManager] C:\Python27\Scripts
+2016-12-14 13:23:18.092+0000 INFO  [o.n.k.i.DiagnosticsManager] C:\ProgramData\Oracle\Java\javapath
+2016-12-14 13:23:18.092+0000 INFO  [o.n.k.i.DiagnosticsManager] C:\Program Files (x86)\Intel\iCLS Client
+2016-12-14 13:23:18.092+0000 INFO  [o.n.k.i.DiagnosticsManager] C:\Program Files\Intel\iCLS Client
+2016-12-14 13:23:18.092+0000 INFO  [o.n.k.i.DiagnosticsManager] C:\Windows\System32
+2016-12-14 13:23:18.092+0000 INFO  [o.n.k.i.DiagnosticsManager] C:\Windows
+2016-12-14 13:23:18.093+0000 INFO  [o.n.k.i.DiagnosticsManager] C:\Windows\System32\wbem
+2016-12-14 13:23:18.093+0000 INFO  [o.n.k.i.DiagnosticsManager] C:\Windows\System32\WindowsPowerShell\v1.0
+2016-12-14 13:23:18.093+0000 INFO  [o.n.k.i.DiagnosticsManager] C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common
+2016-12-14 13:23:18.093+0000 INFO  [o.n.k.i.DiagnosticsManager] C:\Program Files\Intel\WiFi\bin
+2016-12-14 13:23:18.093+0000 INFO  [o.n.k.i.DiagnosticsManager] C:\Program Files\Common Files\Intel\WirelessCommon
+2016-12-14 13:23:18.093+0000 INFO  [o.n.k.i.DiagnosticsManager] C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL
+2016-12-14 13:23:18.093+0000 INFO  [o.n.k.i.DiagnosticsManager] C:\Program Files\Intel\Intel(R) Management Engine Components\DAL
+2016-12-14 13:23:18.093+0000 INFO  [o.n.k.i.DiagnosticsManager] C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT
+2016-12-14 13:23:18.093+0000 INFO  [o.n.k.i.DiagnosticsManager] C:\Program Files\Intel\Intel(R) Management Engine Components\IPT
+2016-12-14 13:23:18.094+0000 INFO  [o.n.k.i.DiagnosticsManager] C:\Program Files (x86)\HP\HP Performance Advisor
+2016-12-14 13:23:18.094+0000 INFO  [o.n.k.i.DiagnosticsManager] C:\Program Files\Git\cmd
+2016-12-14 13:23:18.094+0000 INFO  [o.n.k.i.DiagnosticsManager] C:\Program Files\Ethereum 0.9.41\bin
+2016-12-14 13:23:18.094+0000 INFO  [o.n.k.i.DiagnosticsManager] C:\Windows\System32
+2016-12-14 13:23:18.094+0000 INFO  [o.n.k.i.DiagnosticsManager] C:\Windows
+2016-12-14 13:23:18.094+0000 INFO  [o.n.k.i.DiagnosticsManager] C:\Windows\System32\wbem
+2016-12-14 13:23:18.094+0000 INFO  [o.n.k.i.DiagnosticsManager] C:\Windows\System32\WindowsPowerShell\v1.0
+2016-12-14 13:23:18.094+0000 INFO  [o.n.k.i.DiagnosticsManager] C:\Users\HP\Downloads\play-1.3.4\play-1.3.4
+2016-12-14 13:23:18.094+0000 INFO  [o.n.k.i.DiagnosticsManager] C:\Program Files\nodejs
+2016-12-14 13:23:18.095+0000 INFO  [o.n.k.i.DiagnosticsManager] C:\Program Files\OpenSSH\bin
+2016-12-14 13:23:18.095+0000 INFO  [o.n.k.i.DiagnosticsManager] C:\Users\HP\AppData\Local\Microsoft\WindowsApps
+2016-12-14 13:23:18.095+0000 INFO  [o.n.k.i.DiagnosticsManager] C:\Users\HP\AppData\Local\atom\bin
+2016-12-14 13:23:18.095+0000 INFO  [o.n.k.i.DiagnosticsManager] C:\Users\HP\AppData\Roaming\npm
+2016-12-14 13:23:18.095+0000 INFO  [o.n.k.i.DiagnosticsManager] C:\Program Files\Java\jre1.8.0_73\bin
+2016-12-14 13:23:18.095+0000 INFO  [o.n.k.i.DiagnosticsManager] C:\Program Files\Java\jre1.8.0_73\bin
+2016-12-14 13:23:18.095+0000 INFO  [o.n.k.i.DiagnosticsManager] System.properties:
+2016-12-14 13:23:18.095+0000 INFO  [o.n.k.i.DiagnosticsManager] exe4j.moduleName = C:\Program Files\Neo4j CE 3.1.0\bin\neo4j-ce.exe
+2016-12-14 13:23:18.095+0000 INFO  [o.n.k.i.DiagnosticsManager] exe4j.semaphoreName = Local\c:_program_files_neo4j_ce_3.1.0_bin_neo4j-ce.exe
+2016-12-14 13:23:18.095+0000 INFO  [o.n.k.i.DiagnosticsManager] sun.boot.library.path = c:\program files\java\jre1.8.0_73\bin
+2016-12-14 13:23:18.095+0000 INFO  [o.n.k.i.DiagnosticsManager] exe4j.consoleCodepage = cp0
+2016-12-14 13:23:18.095+0000 INFO  [o.n.k.i.DiagnosticsManager] path.separator = ;
+2016-12-14 13:23:18.095+0000 INFO  [o.n.k.i.DiagnosticsManager] file.encoding.pkg = sun.io
+2016-12-14 13:23:18.095+0000 INFO  [o.n.k.i.DiagnosticsManager] user.country = GB
+2016-12-14 13:23:18.095+0000 INFO  [o.n.k.i.DiagnosticsManager] user.script = 
+2016-12-14 13:23:18.095+0000 INFO  [o.n.k.i.DiagnosticsManager] sun.os.patch.level = 
+2016-12-14 13:23:18.095+0000 INFO  [o.n.k.i.DiagnosticsManager] install4j.exeDir = C:\Program Files\Neo4j CE 3.1.0\bin\
+2016-12-14 13:23:18.095+0000 INFO  [o.n.k.i.DiagnosticsManager] user.dir = C:\Program Files\Neo4j CE 3.1.0\bin
+2016-12-14 13:23:18.095+0000 INFO  [o.n.k.i.DiagnosticsManager] user.variant = 
+2016-12-14 13:23:18.095+0000 INFO  [o.n.k.i.DiagnosticsManager] exe4j.tempDir = 
+2016-12-14 13:23:18.095+0000 INFO  [o.n.k.i.DiagnosticsManager] sun.jnu.encoding = Cp1252
+2016-12-14 13:23:18.095+0000 INFO  [o.n.k.i.DiagnosticsManager] sun.nio.ch.bugLevel = 
+2016-12-14 13:23:18.095+0000 INFO  [o.n.k.i.DiagnosticsManager] unsupported.dbms.udc.source = desktop
+2016-12-14 13:23:18.095+0000 INFO  [o.n.k.i.DiagnosticsManager] sun.awt.enableExtraMouseButtons = true
+2016-12-14 13:23:18.095+0000 INFO  [o.n.k.i.DiagnosticsManager] install4j.launcherId = 24
+2016-12-14 13:23:18.095+0000 INFO  [o.n.k.i.DiagnosticsManager] sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+2016-12-14 13:23:18.095+0000 INFO  [o.n.k.i.DiagnosticsManager] exe4j.isInstall4j = true
+2016-12-14 13:23:18.095+0000 INFO  [o.n.k.i.DiagnosticsManager] install4j.swt = false
+2016-12-14 13:23:18.095+0000 INFO  [o.n.k.i.DiagnosticsManager] user.home = C:\Users\HP
+2016-12-14 13:23:18.095+0000 INFO  [o.n.k.i.DiagnosticsManager] user.timezone = Europe/Paris
+2016-12-14 13:23:18.095+0000 INFO  [o.n.k.i.DiagnosticsManager] file.encoding = Cp1252
+2016-12-14 13:23:18.095+0000 INFO  [o.n.k.i.DiagnosticsManager] user.name = HP
+2016-12-14 13:23:18.095+0000 INFO  [o.n.k.i.DiagnosticsManager] sun.java.command = C:\Program Files\Neo4j CE 3.1.0\bin\neo4j-ce.exe
+2016-12-14 13:23:18.095+0000 INFO  [o.n.k.i.DiagnosticsManager] sun.arch.data.model = 64
+2016-12-14 13:23:18.095+0000 INFO  [o.n.k.i.DiagnosticsManager] exe4j.launchName = C:\PROGRA~1\NEO4JC~1.0\bin\neo4j-ce.exe
+2016-12-14 13:23:18.095+0000 INFO  [o.n.k.i.DiagnosticsManager] user.language = en
+2016-12-14 13:23:18.095+0000 INFO  [o.n.k.i.DiagnosticsManager] awt.toolkit = sun.awt.windows.WToolkit
+2016-12-14 13:23:18.095+0000 INFO  [o.n.k.i.DiagnosticsManager] exe4j.unextractedPosition = 0
+2016-12-14 13:23:18.095+0000 INFO  [o.n.k.i.DiagnosticsManager] install4j.appDir = C:\Program Files\Neo4j CE 3.1.0\
+2016-12-14 13:23:18.095+0000 INFO  [o.n.k.i.DiagnosticsManager] file.separator = \
+2016-12-14 13:23:18.095+0000 INFO  [o.n.k.i.DiagnosticsManager] sun.io.unicode.encoding = UnicodeLittle
+2016-12-14 13:23:18.095+0000 INFO  [o.n.k.i.DiagnosticsManager] sun.cpu.endian = little
+2016-12-14 13:23:18.095+0000 INFO  [o.n.k.i.DiagnosticsManager] sun.desktop = windows
+2016-12-14 13:23:18.095+0000 INFO  [o.n.k.i.DiagnosticsManager] sun.cpu.isalist = amd64
+2016-12-14 13:23:18.095+0000 INFO  [o.n.k.i.DiagnosticsManager] Network information:
+2016-12-14 13:23:18.126+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface Software Loopback Interface 1:
+2016-12-14 13:23:18.126+0000 INFO  [o.n.k.i.DiagnosticsManager]     address: 127.0.0.1
+2016-12-14 13:23:18.126+0000 INFO  [o.n.k.i.DiagnosticsManager]     address: 0:0:0:0:0:0:0:1
+2016-12-14 13:23:18.126+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface Cisco AnyConnect Secure Mobility Client Virtual Miniport Adapter for Windows x64:
+2016-12-14 13:23:18.126+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface WAN Miniport (PPTP):
+2016-12-14 13:23:18.126+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface WAN Miniport (Network Monitor):
+2016-12-14 13:23:18.126+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface FrozenWay Adapter:
+2016-12-14 13:23:18.126+0000 INFO  [o.n.k.i.DiagnosticsManager]     address: fe80:0:0:0:606d:1338:9890:d3a5%eth2
+2016-12-14 13:23:18.126+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface Microsoft Kernel Debug Network Adapter:
+2016-12-14 13:23:18.127+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface Bluetooth Device (RFCOMM Protocol TDI):
+2016-12-14 13:23:18.127+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface Microsoft Teredo Tunneling Adapter:
+2016-12-14 13:23:18.127+0000 INFO  [o.n.k.i.DiagnosticsManager]     address: 2001:0:d5c:5a30:3478:3e95:7d41:92ad
+2016-12-14 13:23:18.127+0000 INFO  [o.n.k.i.DiagnosticsManager]     address: fe80:0:0:0:3478:3e95:7d41:92ad%net2
+2016-12-14 13:23:18.127+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface WAN Miniport (L2TP):
+2016-12-14 13:23:18.127+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface Intel(R) Dual Band Wireless-AC 7260:
+2016-12-14 13:23:18.127+0000 INFO  [o.n.k.i.DiagnosticsManager]     address: 130.190.109.82
+2016-12-14 13:23:18.127+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface WAN Miniport (IKEv2):
+2016-12-14 13:23:18.127+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface Microsoft ISATAP Adapter #3:
+2016-12-14 13:23:18.127+0000 INFO  [o.n.k.i.DiagnosticsManager]     address: fe80:0:0:0:200:5efe:82be:6d52%net5
+2016-12-14 13:23:18.127+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface WAN Miniport (IPv6):
+2016-12-14 13:23:18.127+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface WAN Miniport (SSTP):
+2016-12-14 13:23:18.127+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface Microsoft Wi-Fi Direct Virtual Adapter:
+2016-12-14 13:23:18.127+0000 INFO  [o.n.k.i.DiagnosticsManager]     address: fe80:0:0:0:44cb:7f91:62d1:f711%wlan1
+2016-12-14 13:23:18.127+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface Microsoft ISATAP Adapter #2:
+2016-12-14 13:23:18.127+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface WAN Miniport (IP):
+2016-12-14 13:23:18.127+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface Bluetooth PAN HelpText:
+2016-12-14 13:23:18.127+0000 INFO  [o.n.k.i.DiagnosticsManager]     address: fe80:0:0:0:820:fcf:77fe:b7db%eth6
+2016-12-14 13:23:18.127+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface Microsoft ISATAP Adapter #5:
+2016-12-14 13:23:18.127+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface WAN Miniport (PPPOE):
+2016-12-14 13:23:18.127+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface FrozenWay Adapter-WFP Native MAC Layer LightWeight Filter-0000:
+2016-12-14 13:23:18.127+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface FrozenWay Adapter-QoS Packet Scheduler-0000:
+2016-12-14 13:23:18.127+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface FrozenWay Adapter-WFP 802.3 MAC Layer LightWeight Filter-0000:
+2016-12-14 13:23:18.127+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface Intel(R) Dual Band Wireless-AC 7260-WFP Native MAC Layer LightWeight Filter-0000:
+2016-12-14 13:23:18.127+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface Intel(R) Dual Band Wireless-AC 7260-Virtual WiFi Filter Driver-0000:
+2016-12-14 13:23:18.127+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface Intel(R) Dual Band Wireless-AC 7260-Native WiFi Filter Driver-0000:
+2016-12-14 13:23:18.127+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface Intel(R) Dual Band Wireless-AC 7260-QoS Packet Scheduler-0000:
+2016-12-14 13:23:18.127+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface Intel(R) Dual Band Wireless-AC 7260-WFP 802.3 MAC Layer LightWeight Filter-0000:
+2016-12-14 13:23:18.127+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface Microsoft Wi-Fi Direct Virtual Adapter-WFP Native MAC Layer LightWeight Filter-0000:
+2016-12-14 13:23:18.127+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface Microsoft Wi-Fi Direct Virtual Adapter-Native WiFi Filter Driver-0000:
+2016-12-14 13:23:18.127+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface Microsoft Wi-Fi Direct Virtual Adapter-QoS Packet Scheduler-0000:
+2016-12-14 13:23:18.127+0000 INFO  [o.n.k.i.DiagnosticsManager] Interface Microsoft Wi-Fi Direct Virtual Adapter-WFP 802.3 MAC Layer LightWeight Filter-0000:
+2016-12-14 13:23:18.127+0000 INFO  [o.n.k.i.DiagnosticsManager] --- INITIALIZED diagnostics END ---
+2016-12-14 13:23:18.135+0000 INFO  [o.n.b.v.r.WorkerFactory] Bolt Server extension loaded.
+2016-12-14 13:23:18.139+0000 INFO  [o.n.b.v.r.WorkerFactory] Bolt enabled on localhost:7687.
+2016-12-14 13:23:18.147+0000 INFO  [o.n.k.i.s.f.RecordFormatSelector] Selected RecordFormat:StandardV3_0[v0.A.7] record format from store C:\Users\HP\nosqlhomework\graphdb
+2016-12-14 13:23:18.155+0000 INFO  [o.n.k.i.s.f.RecordFormatSelector] Selected RecordFormat:StandardV3_0[v0.A.7] record format from store C:\Users\HP\nosqlhomework\graphdb
+2016-12-14 13:23:18.158+0000 INFO  [o.n.k.i.s.f.RecordFormatSelector] Format not configured. Selected format from the store: RecordFormat:StandardV3_0[v0.A.7]
+2016-12-14 13:23:18.324+0000 INFO  [o.n.k.i.s.DynamicArrayStore] Rebuilding id generator for[C:\Users\HP\nosqlhomework\graphdb\neostore.nodestore.db.labels] ...
+2016-12-14 13:23:18.336+0000 INFO  [o.n.k.i.s.DynamicArrayStore] [C:\Users\HP\nosqlhomework\graphdb\neostore.nodestore.db.labels] high id=1 (defragged=0)
+2016-12-14 13:23:18.340+0000 INFO  [o.n.k.i.s.DynamicArrayStore] C:\Users\HP\nosqlhomework\graphdb\neostore.nodestore.db.labels rebuild id generator, highId=1 defragged count=0
+2016-12-14 13:23:18.343+0000 INFO  [o.n.k.i.s.NodeStore] Rebuilding id generator for[C:\Users\HP\nosqlhomework\graphdb\neostore.nodestore.db] ...
+2016-12-14 13:23:18.355+0000 INFO  [o.n.k.i.s.NodeStore] [C:\Users\HP\nosqlhomework\graphdb\neostore.nodestore.db] high id=456 (defragged=0)
+2016-12-14 13:23:18.359+0000 INFO  [o.n.k.i.s.NodeStore] C:\Users\HP\nosqlhomework\graphdb\neostore.nodestore.db rebuild id generator, highId=456 defragged count=0
+2016-12-14 13:23:18.364+0000 INFO  [o.n.k.i.s.DynamicStringStore] Rebuilding id generator for[C:\Users\HP\nosqlhomework\graphdb\neostore.propertystore.db.index.keys] ...
+2016-12-14 13:23:18.375+0000 INFO  [o.n.k.i.s.DynamicStringStore] [C:\Users\HP\nosqlhomework\graphdb\neostore.propertystore.db.index.keys] high id=63 (defragged=0)
+2016-12-14 13:23:18.379+0000 INFO  [o.n.k.i.s.DynamicStringStore] C:\Users\HP\nosqlhomework\graphdb\neostore.propertystore.db.index.keys rebuild id generator, highId=63 defragged count=0
+2016-12-14 13:23:18.382+0000 INFO  [o.n.k.i.s.PropertyKeyTokenStore] Rebuilding id generator for[C:\Users\HP\nosqlhomework\graphdb\neostore.propertystore.db.index] ...
+2016-12-14 13:23:18.395+0000 INFO  [o.n.k.i.s.PropertyKeyTokenStore] [C:\Users\HP\nosqlhomework\graphdb\neostore.propertystore.db.index] high id=62 (defragged=0)
+2016-12-14 13:23:18.398+0000 INFO  [o.n.k.i.s.PropertyKeyTokenStore] C:\Users\HP\nosqlhomework\graphdb\neostore.propertystore.db.index rebuild id generator, highId=62 defragged count=0
+2016-12-14 13:23:18.413+0000 INFO  [o.n.k.i.s.DynamicStringStore] Rebuilding id generator for[C:\Users\HP\nosqlhomework\graphdb\neostore.propertystore.db.strings] ...
+2016-12-14 13:23:18.423+0000 INFO  [o.n.k.i.s.DynamicStringStore] [C:\Users\HP\nosqlhomework\graphdb\neostore.propertystore.db.strings] high id=115 (defragged=0)
+2016-12-14 13:23:18.426+0000 INFO  [o.n.k.i.s.DynamicStringStore] C:\Users\HP\nosqlhomework\graphdb\neostore.propertystore.db.strings rebuild id generator, highId=115 defragged count=0
+2016-12-14 13:23:18.429+0000 INFO  [o.n.k.i.s.DynamicArrayStore] Rebuilding id generator for[C:\Users\HP\nosqlhomework\graphdb\neostore.propertystore.db.arrays] ...
+2016-12-14 13:23:18.439+0000 INFO  [o.n.k.i.s.DynamicArrayStore] [C:\Users\HP\nosqlhomework\graphdb\neostore.propertystore.db.arrays] high id=1 (defragged=0)
+2016-12-14 13:23:18.442+0000 INFO  [o.n.k.i.s.DynamicArrayStore] C:\Users\HP\nosqlhomework\graphdb\neostore.propertystore.db.arrays rebuild id generator, highId=1 defragged count=0
+2016-12-14 13:23:18.445+0000 INFO  [o.n.k.i.s.PropertyStore] Rebuilding id generator for[C:\Users\HP\nosqlhomework\graphdb\neostore.propertystore.db] ...
+2016-12-14 13:23:18.454+0000 INFO  [o.n.k.i.s.PropertyStore] [C:\Users\HP\nosqlhomework\graphdb\neostore.propertystore.db] high id=5321 (defragged=0)
+2016-12-14 13:23:18.457+0000 INFO  [o.n.k.i.s.PropertyStore] C:\Users\HP\nosqlhomework\graphdb\neostore.propertystore.db rebuild id generator, highId=5321 defragged count=0
+2016-12-14 13:23:18.460+0000 INFO  [o.n.k.i.s.RelationshipStore] Rebuilding id generator for[C:\Users\HP\nosqlhomework\graphdb\neostore.relationshipstore.db] ...
+2016-12-14 13:23:18.471+0000 INFO  [o.n.k.i.s.RelationshipStore] [C:\Users\HP\nosqlhomework\graphdb\neostore.relationshipstore.db] high id=483 (defragged=0)
+2016-12-14 13:23:18.474+0000 INFO  [o.n.k.i.s.RelationshipStore] C:\Users\HP\nosqlhomework\graphdb\neostore.relationshipstore.db rebuild id generator, highId=483 defragged count=0
+2016-12-14 13:23:18.477+0000 INFO  [o.n.k.i.s.DynamicStringStore] Rebuilding id generator for[C:\Users\HP\nosqlhomework\graphdb\neostore.relationshiptypestore.db.names] ...
+2016-12-14 13:23:18.488+0000 INFO  [o.n.k.i.s.DynamicStringStore] [C:\Users\HP\nosqlhomework\graphdb\neostore.relationshiptypestore.db.names] high id=7 (defragged=0)
+2016-12-14 13:23:18.491+0000 INFO  [o.n.k.i.s.DynamicStringStore] C:\Users\HP\nosqlhomework\graphdb\neostore.relationshiptypestore.db.names rebuild id generator, highId=7 defragged count=0
+2016-12-14 13:23:18.494+0000 INFO  [o.n.k.i.s.RelationshipTypeTokenStore] Rebuilding id generator for[C:\Users\HP\nosqlhomework\graphdb\neostore.relationshiptypestore.db] ...
+2016-12-14 13:23:18.506+0000 INFO  [o.n.k.i.s.RelationshipTypeTokenStore] [C:\Users\HP\nosqlhomework\graphdb\neostore.relationshiptypestore.db] high id=6 (defragged=0)
+2016-12-14 13:23:18.508+0000 INFO  [o.n.k.i.s.RelationshipTypeTokenStore] C:\Users\HP\nosqlhomework\graphdb\neostore.relationshiptypestore.db rebuild id generator, highId=6 defragged count=0
+2016-12-14 13:23:18.524+0000 INFO  [o.n.k.i.s.DynamicStringStore] Rebuilding id generator for[C:\Users\HP\nosqlhomework\graphdb\neostore.labeltokenstore.db.names] ...
+2016-12-14 13:23:18.535+0000 INFO  [o.n.k.i.s.DynamicStringStore] [C:\Users\HP\nosqlhomework\graphdb\neostore.labeltokenstore.db.names] high id=5 (defragged=0)
+2016-12-14 13:23:18.537+0000 INFO  [o.n.k.i.s.DynamicStringStore] C:\Users\HP\nosqlhomework\graphdb\neostore.labeltokenstore.db.names rebuild id generator, highId=5 defragged count=0
+2016-12-14 13:23:18.540+0000 INFO  [o.n.k.i.s.LabelTokenStore] Rebuilding id generator for[C:\Users\HP\nosqlhomework\graphdb\neostore.labeltokenstore.db] ...
+2016-12-14 13:23:18.551+0000 INFO  [o.n.k.i.s.LabelTokenStore] [C:\Users\HP\nosqlhomework\graphdb\neostore.labeltokenstore.db] high id=4 (defragged=0)
+2016-12-14 13:23:18.554+0000 INFO  [o.n.k.i.s.LabelTokenStore] C:\Users\HP\nosqlhomework\graphdb\neostore.labeltokenstore.db rebuild id generator, highId=4 defragged count=0
+2016-12-14 13:23:18.570+0000 INFO  [o.n.k.i.s.SchemaStore] Rebuilding id generator for[C:\Users\HP\nosqlhomework\graphdb\neostore.schemastore.db] ...
+2016-12-14 13:23:18.581+0000 INFO  [o.n.k.i.s.SchemaStore] [C:\Users\HP\nosqlhomework\graphdb\neostore.schemastore.db] high id=1 (defragged=0)
+2016-12-14 13:23:18.584+0000 INFO  [o.n.k.i.s.SchemaStore] C:\Users\HP\nosqlhomework\graphdb\neostore.schemastore.db rebuild id generator, highId=1 defragged count=0
+2016-12-14 13:23:18.587+0000 INFO  [o.n.k.i.s.RelationshipGroupStore] Rebuilding id generator for[C:\Users\HP\nosqlhomework\graphdb\neostore.relationshipgroupstore.db] ...
+2016-12-14 13:23:18.598+0000 INFO  [o.n.k.i.s.RelationshipGroupStore] [C:\Users\HP\nosqlhomework\graphdb\neostore.relationshipgroupstore.db] high id=17 (defragged=0)
+2016-12-14 13:23:18.601+0000 INFO  [o.n.k.i.s.RelationshipGroupStore] C:\Users\HP\nosqlhomework\graphdb\neostore.relationshipgroupstore.db rebuild id generator, highId=17 defragged count=0
+2016-12-14 13:23:18.604+0000 INFO  [o.n.k.i.s.MetaDataStore] Rebuilding id generator for[C:\Users\HP\nosqlhomework\graphdb\neostore] ...
+2016-12-14 13:23:18.615+0000 INFO  [o.n.k.i.s.MetaDataStore] [C:\Users\HP\nosqlhomework\graphdb\neostore] high id=15 (defragged=0)
+2016-12-14 13:23:18.618+0000 INFO  [o.n.k.i.s.MetaDataStore] C:\Users\HP\nosqlhomework\graphdb\neostore rebuild id generator, highId=15 defragged count=0
+2016-12-14 13:23:18.623+0000 INFO  [o.n.k.i.DatabaseHealth] Database health set to OK
+2016-12-14 13:23:18.635+0000 INFO  [o.n.k.AvailabilityGuard] Fulfilling of requirement makes database available: Database available
+2016-12-14 13:23:18.637+0000 INFO  [o.n.k.i.f.GraphDatabaseFacadeFactory] Database is now ready
+2016-12-14 13:23:18.640+0000 INFO  [o.n.k.i.DiagnosticsManager] --- STARTED diagnostics for KernelDiagnostics:Versions START ---
+2016-12-14 13:23:18.643+0000 INFO  [o.n.k.i.DiagnosticsManager] Graph Database: community single StoreId{creationTime=1472115841930, randomId=-902290680653403326, storeVersion=15531981201765894, upgradeTime=1481478537302, upgradeId=1230}
+2016-12-14 13:23:18.647+0000 INFO  [o.n.k.i.DiagnosticsManager] Kernel version: 3.1.0
+2016-12-14 13:23:18.650+0000 INFO  [o.n.k.i.DiagnosticsManager] --- STARTED diagnostics for KernelDiagnostics:Versions END ---
+2016-12-14 13:23:18.653+0000 INFO  [o.n.k.i.DiagnosticsManager] --- STARTED diagnostics for NEO_STORE_VERSIONS START ---
+2016-12-14 13:23:18.656+0000 INFO  [o.n.k.i.DiagnosticsManager] Store versions:
+2016-12-14 13:23:18.658+0000 INFO  [o.n.k.i.DiagnosticsManager] Store versions:
+2016-12-14 13:23:18.662+0000 INFO  [o.n.k.i.DiagnosticsManager]   ArrayPropertyStore v0.A.7
+2016-12-14 13:23:18.664+0000 INFO  [o.n.k.i.DiagnosticsManager]   NodeStore v0.A.7
+2016-12-14 13:23:18.667+0000 INFO  [o.n.k.i.DiagnosticsManager]   StringPropertyStore v0.A.7
+2016-12-14 13:23:18.670+0000 INFO  [o.n.k.i.DiagnosticsManager]   PropertyIndexStore v0.A.7
+2016-12-14 13:23:18.673+0000 INFO  [o.n.k.i.DiagnosticsManager]   StringPropertyStore v0.A.7
+2016-12-14 13:23:18.676+0000 INFO  [o.n.k.i.DiagnosticsManager]   ArrayPropertyStore v0.A.7
+2016-12-14 13:23:18.679+0000 INFO  [o.n.k.i.DiagnosticsManager]   PropertyStore v0.A.7
+2016-12-14 13:23:18.682+0000 INFO  [o.n.k.i.DiagnosticsManager]   RelationshipStore v0.A.7
+2016-12-14 13:23:18.685+0000 INFO  [o.n.k.i.DiagnosticsManager]   StringPropertyStore v0.A.7
+2016-12-14 13:23:18.688+0000 INFO  [o.n.k.i.DiagnosticsManager]   RelationshipTypeStore v0.A.7
+2016-12-14 13:23:18.691+0000 INFO  [o.n.k.i.DiagnosticsManager]   StringPropertyStore v0.A.7
+2016-12-14 13:23:18.694+0000 INFO  [o.n.k.i.DiagnosticsManager]   LabelTokenStore v0.A.7
+2016-12-14 13:23:18.697+0000 INFO  [o.n.k.i.DiagnosticsManager]   SchemaStore v0.A.7
+2016-12-14 13:23:18.700+0000 INFO  [o.n.k.i.DiagnosticsManager]   RelationshipGroupStore v0.A.7
+2016-12-14 13:23:18.703+0000 INFO  [o.n.k.i.DiagnosticsManager]   NeoStore v0.A.7
+2016-12-14 13:23:18.706+0000 INFO  [o.n.k.i.DiagnosticsManager] --- STARTED diagnostics for NEO_STORE_VERSIONS END ---
+2016-12-14 13:23:18.708+0000 INFO  [o.n.k.i.DiagnosticsManager] --- STARTED diagnostics for NEO_STORE_ID_USAGE START ---
+2016-12-14 13:23:18.711+0000 INFO  [o.n.k.i.DiagnosticsManager] Id usage:
+2016-12-14 13:23:18.714+0000 INFO  [o.n.k.i.DiagnosticsManager] Id usage:
+2016-12-14 13:23:18.717+0000 INFO  [o.n.k.i.DiagnosticsManager]   ArrayPropertyStore: used=1 high=0
+2016-12-14 13:23:18.720+0000 INFO  [o.n.k.i.DiagnosticsManager]   NodeStore: used=456 high=455
+2016-12-14 13:23:18.723+0000 INFO  [o.n.k.i.DiagnosticsManager]   StringPropertyStore: used=63 high=62
+2016-12-14 13:23:18.726+0000 INFO  [o.n.k.i.DiagnosticsManager]   PropertyIndexStore: used=62 high=61
+2016-12-14 13:23:18.729+0000 INFO  [o.n.k.i.DiagnosticsManager]   StringPropertyStore: used=115 high=114
+2016-12-14 13:23:18.732+0000 INFO  [o.n.k.i.DiagnosticsManager]   ArrayPropertyStore: used=1 high=0
+2016-12-14 13:23:18.735+0000 INFO  [o.n.k.i.DiagnosticsManager]   PropertyStore: used=5321 high=5320
+2016-12-14 13:23:18.737+0000 INFO  [o.n.k.i.DiagnosticsManager]   RelationshipStore: used=483 high=482
+2016-12-14 13:23:18.740+0000 INFO  [o.n.k.i.DiagnosticsManager]   StringPropertyStore: used=7 high=6
+2016-12-14 13:23:18.743+0000 INFO  [o.n.k.i.DiagnosticsManager]   RelationshipTypeStore: used=6 high=5
+2016-12-14 13:23:18.746+0000 INFO  [o.n.k.i.DiagnosticsManager]   StringPropertyStore: used=5 high=4
+2016-12-14 13:23:18.749+0000 INFO  [o.n.k.i.DiagnosticsManager]   LabelTokenStore: used=4 high=3
+2016-12-14 13:23:18.752+0000 INFO  [o.n.k.i.DiagnosticsManager]   SchemaStore: used=1 high=0
+2016-12-14 13:23:18.754+0000 INFO  [o.n.k.i.DiagnosticsManager]   RelationshipGroupStore: used=17 high=16
+2016-12-14 13:23:18.757+0000 INFO  [o.n.k.i.DiagnosticsManager]   NeoStore: used=15 high=14
+2016-12-14 13:23:18.760+0000 INFO  [o.n.k.i.DiagnosticsManager] --- STARTED diagnostics for NEO_STORE_ID_USAGE END ---
+2016-12-14 13:23:18.763+0000 INFO  [o.n.k.i.DiagnosticsManager] --- STARTED diagnostics for NEO_STORE_RECORDS START ---
+2016-12-14 13:23:18.765+0000 INFO  [o.n.k.i.DiagnosticsManager] Neostore records:
+2016-12-14 13:23:18.768+0000 INFO  [o.n.k.i.DiagnosticsManager] TIME (Creation time): 1472115841930
+2016-12-14 13:23:18.771+0000 INFO  [o.n.k.i.DiagnosticsManager] RANDOM_NUMBER (Random number for store id): -902290680653403326
+2016-12-14 13:23:18.776+0000 INFO  [o.n.k.i.DiagnosticsManager] LOG_VERSION (Current log version): 0
+2016-12-14 13:23:18.778+0000 INFO  [o.n.k.i.DiagnosticsManager] LAST_TRANSACTION_ID (Last committed transaction): 1306
+2016-12-14 13:23:18.783+0000 INFO  [o.n.k.i.DiagnosticsManager] STORE_VERSION (Store format version): 15531981201765894
+2016-12-14 13:23:18.786+0000 INFO  [o.n.k.i.DiagnosticsManager] FIRST_GRAPH_PROPERTY (First property record containing graph properties): -1
+2016-12-14 13:23:18.789+0000 INFO  [o.n.k.i.DiagnosticsManager] LAST_CONSTRAINT_TRANSACTION (Last committed transaction containing constraint changes): 0
+2016-12-14 13:23:18.792+0000 INFO  [o.n.k.i.DiagnosticsManager] UPGRADE_TRANSACTION_ID (Transaction id most recent upgrade was performed at): 1230
+2016-12-14 13:23:18.795+0000 INFO  [o.n.k.i.DiagnosticsManager] UPGRADE_TIME (Time of last upgrade): 1481478537302
+2016-12-14 13:23:18.798+0000 INFO  [o.n.k.i.DiagnosticsManager] LAST_TRANSACTION_CHECKSUM (Checksum of last committed transaction): -161228809983
+2016-12-14 13:23:18.802+0000 INFO  [o.n.k.i.DiagnosticsManager] UPGRADE_TRANSACTION_CHECKSUM (Checksum of transaction id the most recent upgrade was performed at): -162596870199
+2016-12-14 13:23:18.806+0000 INFO  [o.n.k.i.DiagnosticsManager] LAST_CLOSED_TRANSACTION_LOG_VERSION (Log version where the last transaction commit entry has been written into): 0
+2016-12-14 13:23:18.809+0000 INFO  [o.n.k.i.DiagnosticsManager] LAST_CLOSED_TRANSACTION_LOG_BYTE_OFFSET (Byte offset in the log file where the last transaction commit entry has been written into): 3554110
+2016-12-14 13:23:18.812+0000 INFO  [o.n.k.i.DiagnosticsManager] LAST_TRANSACTION_COMMIT_TIMESTAMP (Commit time timestamp for last committed transaction): 1481662068376
+2016-12-14 13:23:18.815+0000 INFO  [o.n.k.i.DiagnosticsManager] UPGRADE_TRANSACTION_COMMIT_TIMESTAMP (Commit timestamp of transaction the most recent upgrade was performed at): 1481313661631
+2016-12-14 13:23:18.818+0000 INFO  [o.n.k.i.DiagnosticsManager] --- STARTED diagnostics for NEO_STORE_RECORDS END ---
+2016-12-14 13:23:18.821+0000 INFO  [o.n.k.i.DiagnosticsManager] --- STARTED diagnostics for TRANSACTION_RANGE START ---
+2016-12-14 13:23:18.825+0000 INFO  [o.n.k.i.DiagnosticsManager] Transaction log:
+2016-12-14 13:23:18.828+0000 INFO  [o.n.k.i.DiagnosticsManager] Oldest transaction 2 found in log with version 0
+2016-12-14 13:23:18.832+0000 INFO  [o.n.k.i.DiagnosticsManager] --- STARTED diagnostics for TRANSACTION_RANGE END ---
+2016-12-14 13:23:18.835+0000 INFO  [o.n.k.i.DiagnosticsManager] --- STARTED diagnostics for KernelDiagnostics:StoreFiles START ---
+2016-12-14 13:23:18.839+0000 INFO  [o.n.k.i.DiagnosticsManager] Disk space on partition (Total / Free / Free %): 498279018496 / 287725510656 / 57
+Storage files: (filename : modification date - size)
+2016-12-14 13:23:18.842+0000 INFO  [o.n.k.i.DiagnosticsManager]   certificates:
+2016-12-14 13:23:18.846+0000 INFO  [o.n.k.i.DiagnosticsManager]     neo4j.cert: 2016-12-14T14:16:50+0100 - 985.00 B
+2016-12-14 13:23:18.850+0000 INFO  [o.n.k.i.DiagnosticsManager]     neo4j.key: 2016-12-14T14:16:50+0100 - 1.66 kB
+2016-12-14 13:23:18.853+0000 INFO  [o.n.k.i.DiagnosticsManager]   - Total: 2016-12-14T14:16:50+0100 - 2.63 kB
+2016-12-14 13:23:18.856+0000 INFO  [o.n.k.i.DiagnosticsManager]   container.data: 2016-12-14T14:16:50+0100 - 0.00 B
+2016-12-14 13:23:18.859+0000 INFO  [o.n.k.i.DiagnosticsManager]   data:
+2016-12-14 13:23:18.864+0000 INFO  [o.n.k.i.DiagnosticsManager]     dbms:
+2016-12-14 13:23:18.868+0000 INFO  [o.n.k.i.DiagnosticsManager]       auth: 2016-12-14T14:16:50+0100 - 113.00 B
+2016-12-14 13:23:18.872+0000 INFO  [o.n.k.i.DiagnosticsManager]     - Total: 2016-12-14T14:16:50+0100 - 113.00 B
+2016-12-14 13:23:18.875+0000 INFO  [o.n.k.i.DiagnosticsManager]   - Total: 2016-12-14T14:16:50+0100 - 113.00 B
+2016-12-14 13:23:18.878+0000 INFO  [o.n.k.i.DiagnosticsManager]   index:
+2016-12-14 13:23:18.882+0000 INFO  [o.n.k.i.DiagnosticsManager]   - Total: 2016-12-14T14:17:21+0100 - 0.00 B
+2016-12-14 13:23:18.885+0000 INFO  [o.n.k.i.DiagnosticsManager]   logs:
+2016-12-14 13:23:18.888+0000 INFO  [o.n.k.i.DiagnosticsManager]     debug.log: 2016-12-14T14:23:18+0100 - 243.31 kB
+2016-12-14 13:23:18.891+0000 INFO  [o.n.k.i.DiagnosticsManager]   - Total: 2016-12-14T14:23:15+0100 - 243.31 kB
+2016-12-14 13:23:18.896+0000 INFO  [o.n.k.i.DiagnosticsManager]   messages.log: 2016-12-14T14:16:50+0100 - 13.33 MB
+2016-12-14 13:23:18.900+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore: 2016-12-14T14:23:15+0100 - 8.00 kB
+2016-12-14 13:23:18.903+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.counts.db.a: 2016-12-14T14:23:15+0100 - 992.00 B
+2016-12-14 13:23:18.907+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.counts.db.b: 2016-12-14T14:23:15+0100 - 992.00 B
+2016-12-14 13:23:18.910+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.id: 2016-12-14T14:23:18+0100 - 9.00 B
+2016-12-14 13:23:18.914+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.labeltokenstore.db: 2016-12-14T14:23:15+0100 - 8.00 kB
+2016-12-14 13:23:18.917+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.labeltokenstore.db.id: 2016-12-14T14:23:18+0100 - 9.00 B
+2016-12-14 13:23:18.921+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.labeltokenstore.db.names: 2016-12-14T14:23:15+0100 - 8.00 kB
+2016-12-14 13:23:18.924+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.labeltokenstore.db.names.id: 2016-12-14T14:23:18+0100 - 9.00 B
+2016-12-14 13:23:18.927+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.nodestore.db: 2016-12-14T14:23:15+0100 - 8.00 kB
+2016-12-14 13:23:18.932+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.nodestore.db.id: 2016-12-14T14:23:18+0100 - 9.00 B
+2016-12-14 13:23:18.935+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.nodestore.db.labels: 2016-12-14T14:16:50+0100 - 8.00 kB
+2016-12-14 13:23:18.939+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.nodestore.db.labels.id: 2016-12-14T14:23:18+0100 - 9.00 B
+2016-12-14 13:23:18.942+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.propertystore.db: 2016-12-14T14:23:15+0100 - 215.13 kB
+2016-12-14 13:23:18.946+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.propertystore.db.arrays: 2016-12-14T14:16:50+0100 - 8.00 kB
+2016-12-14 13:23:18.949+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.propertystore.db.arrays.id: 2016-12-14T14:23:18+0100 - 9.00 B
+2016-12-14 13:23:18.952+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.propertystore.db.id: 2016-12-14T14:23:18+0100 - 9.00 B
+2016-12-14 13:23:18.956+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.propertystore.db.index: 2016-12-14T14:16:50+0100 - 8.00 kB
+2016-12-14 13:23:18.959+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.propertystore.db.index.id: 2016-12-14T14:23:18+0100 - 9.00 B
+2016-12-14 13:23:18.963+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.propertystore.db.index.keys: 2016-12-14T14:16:50+0100 - 8.00 kB
+2016-12-14 13:23:18.966+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.propertystore.db.index.keys.id: 2016-12-14T14:23:18+0100 - 9.00 B
+2016-12-14 13:23:18.969+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.propertystore.db.strings: 2016-12-14T14:16:50+0100 - 16.00 kB
+2016-12-14 13:23:18.972+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.propertystore.db.strings.id: 2016-12-14T14:23:18+0100 - 9.00 B
+2016-12-14 13:23:18.975+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.relationshipgroupstore.db: 2016-12-14T14:23:15+0100 - 8.00 kB
+2016-12-14 13:23:18.978+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.relationshipgroupstore.db.id: 2016-12-14T14:23:18+0100 - 9.00 B
+2016-12-14 13:23:18.981+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.relationshipstore.db: 2016-12-14T14:23:15+0100 - 23.91 kB
+2016-12-14 13:23:18.984+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.relationshipstore.db.id: 2016-12-14T14:23:18+0100 - 9.00 B
+2016-12-14 13:23:18.987+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.relationshiptypestore.db: 2016-12-14T14:23:15+0100 - 8.00 kB
+2016-12-14 13:23:18.990+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.relationshiptypestore.db.id: 2016-12-14T14:23:18+0100 - 9.00 B
+2016-12-14 13:23:18.993+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.relationshiptypestore.db.names: 2016-12-14T14:23:15+0100 - 8.00 kB
+2016-12-14 13:23:18.996+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.relationshiptypestore.db.names.id: 2016-12-14T14:23:18+0100 - 9.00 B
+2016-12-14 13:23:18.999+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.schemastore.db: 2016-12-14T14:16:50+0100 - 8.00 kB
+2016-12-14 13:23:19.002+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.schemastore.db.id: 2016-12-14T14:23:18+0100 - 9.00 B
+2016-12-14 13:23:19.005+0000 INFO  [o.n.k.i.DiagnosticsManager]   neostore.transaction.db.0: 2016-12-14T14:23:15+0100 - 3.39 MB
+2016-12-14 13:23:19.008+0000 INFO  [o.n.k.i.DiagnosticsManager]   schema:
+2016-12-14 13:23:19.011+0000 INFO  [o.n.k.i.DiagnosticsManager]     label:
+2016-12-14 13:23:19.014+0000 INFO  [o.n.k.i.DiagnosticsManager]       lucene:
+2016-12-14 13:23:19.016+0000 INFO  [o.n.k.i.DiagnosticsManager]         labelStore:
+2016-12-14 13:23:19.019+0000 INFO  [o.n.k.i.DiagnosticsManager]           1:
+2016-12-14 13:23:19.022+0000 INFO  [o.n.k.i.DiagnosticsManager]             _1c.cfe: 2016-12-14T14:23:15+0100 - 305.00 B
+2016-12-14 13:23:19.025+0000 INFO  [o.n.k.i.DiagnosticsManager]             _1c.cfs: 2016-12-14T14:23:15+0100 - 3.44 kB
+2016-12-14 13:23:19.028+0000 INFO  [o.n.k.i.DiagnosticsManager]             _1c.si: 2016-12-14T14:23:15+0100 - 402.00 B
+2016-12-14 13:23:19.031+0000 INFO  [o.n.k.i.DiagnosticsManager]             segments_9: 2016-12-14T14:23:15+0100 - 137.00 B
+2016-12-14 13:23:19.034+0000 INFO  [o.n.k.i.DiagnosticsManager]             write.lock: 2016-12-14T14:16:50+0100 - 0.00 B
+2016-12-14 13:23:19.037+0000 INFO  [o.n.k.i.DiagnosticsManager]           - Total: 2016-12-14T14:23:18+0100 - 4.27 kB
+2016-12-14 13:23:19.040+0000 INFO  [o.n.k.i.DiagnosticsManager]           failure-message: 2016-12-14T14:16:50+0100 - 16.00 kB
+2016-12-14 13:23:19.043+0000 INFO  [o.n.k.i.DiagnosticsManager]         - Total: 2016-12-14T14:16:50+0100 - 20.27 kB
+2016-12-14 13:23:19.046+0000 INFO  [o.n.k.i.DiagnosticsManager]       - Total: 2016-12-14T14:16:50+0100 - 20.27 kB
+2016-12-14 13:23:19.049+0000 INFO  [o.n.k.i.DiagnosticsManager]     - Total: 2016-12-14T14:16:50+0100 - 20.27 kB
+2016-12-14 13:23:19.052+0000 INFO  [o.n.k.i.DiagnosticsManager]   - Total: 2016-12-14T14:16:50+0100 - 20.27 kB
+2016-12-14 13:23:19.055+0000 INFO  [o.n.k.i.DiagnosticsManager]   store_lock: 2016-12-14T14:16:50+0100 - 0.00 B
+2016-12-14 13:23:19.058+0000 INFO  [o.n.k.i.DiagnosticsManager] --- STARTED diagnostics for KernelDiagnostics:StoreFiles END ---
+2016-12-14 13:23:19.074+0000 INFO  [o.n.k.i.DiagnosticsManager] --- SERVER STARTED START ---
+2016-12-14 13:23:19.428+0000 INFO  [o.n.k.i.DiagnosticsManager] --- SERVER STARTED END ---
+2016-12-14 13:35:17.939+0000 INFO  [o.n.k.i.a.i.IndexPopulationJob] Index population started: [:PSEUDO(name) [provider: {key=lucene, version=1.0}]]
+2016-12-14 13:35:17.978+0000 INFO  [o.n.k.i.a.i.IndexPopulationJob] Completed node store scan. Flushing all pending updates.
+BatchingMultipleIndexPopulator{activeTasks=0, executor=java.util.concurrent.ThreadPoolExecutor@293558c0[Running, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], batchedUpdates = [24 updates], queuedUpdates = 0}
+2016-12-14 13:35:17.984+0000 INFO  [o.n.k.i.a.i.IndexPopulationJob] Shutting down executor.
+BatchingMultipleIndexPopulator{activeTasks=1, executor=java.util.concurrent.ThreadPoolExecutor@293558c0[Running, pool size = 1, active threads = 1, queued tasks = 0, completed tasks = 0], batchedUpdates = [], queuedUpdates = 0}
+2016-12-14 13:35:18.068+0000 INFO  [o.n.k.i.a.i.IndexPopulationJob] Index population completed. Index is now online: [:PSEUDO(name) [provider: {key=lucene, version=1.0}]]
+2016-12-14 13:35:18.072+0000 INFO  [o.n.k.i.a.KernelSchemaStateStore] Schema state store has been cleared.
+2016-12-14 13:35:18.082+0000 INFO  [o.n.k.i.a.KernelSchemaStateStore] Schema state store has been cleared.
+2016-12-14 13:35:18.671+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [1308]:  Starting check pointing...
+2016-12-14 13:35:18.674+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [1308]:  Starting store flush...
+2016-12-14 13:35:18.696+0000 INFO  [o.n.k.i.s.c.CountsTracker] About to rotate counts store at transaction 1308 to [C:\Users\HP\nosqlhomework\graphdb\neostore.counts.db.b], from [C:\Users\HP\nosqlhomework\graphdb\neostore.counts.db.a].
+2016-12-14 13:35:18.707+0000 INFO  [o.n.k.i.s.c.CountsTracker] Successfully rotated counts store at transaction 1308 to [C:\Users\HP\nosqlhomework\graphdb\neostore.counts.db.b], from [C:\Users\HP\nosqlhomework\graphdb\neostore.counts.db.a].
+2016-12-14 13:35:18.732+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [1308]:  Store flush completed
+2016-12-14 13:35:18.737+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [1308]:  Starting appending check point entry into the tx log...
+2016-12-14 13:35:18.743+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [1308]:  Appending check point entry into the tx log completed
+2016-12-14 13:35:18.747+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [1308]:  Check pointing completed
+2016-12-14 13:35:18.750+0000 INFO  [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Starting log pruning.
+2016-12-14 13:35:18.753+0000 INFO  [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Log pruning complete.
+2016-12-14 13:38:42.343+0000 INFO  [o.n.k.i.a.i.IndexPopulationJob] Index population started: [:Tag(name) [provider: {key=lucene, version=1.0}]]
+2016-12-14 13:38:42.365+0000 INFO  [o.n.k.i.a.i.IndexPopulationJob] Completed node store scan. Flushing all pending updates.
+BatchingMultipleIndexPopulator{activeTasks=0, executor=java.util.concurrent.ThreadPoolExecutor@87b14d6[Running, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], batchedUpdates = [1 updates], queuedUpdates = 0}
+2016-12-14 13:38:42.369+0000 INFO  [o.n.k.i.a.i.IndexPopulationJob] Shutting down executor.
+BatchingMultipleIndexPopulator{activeTasks=1, executor=java.util.concurrent.ThreadPoolExecutor@87b14d6[Running, pool size = 1, active threads = 1, queued tasks = 0, completed tasks = 0], batchedUpdates = [], queuedUpdates = 0}
+2016-12-14 13:38:42.411+0000 INFO  [o.n.k.i.a.i.IndexPopulationJob] Index population completed. Index is now online: [:Tag(name) [provider: {key=lucene, version=1.0}]]
+2016-12-14 13:38:42.415+0000 INFO  [o.n.k.i.a.KernelSchemaStateStore] Schema state store has been cleared.
+2016-12-14 13:38:42.419+0000 INFO  [o.n.k.i.a.KernelSchemaStateStore] Schema state store has been cleared.
+2016-12-14 13:39:08.622+0000 INFO  [o.n.k.i.a.i.s.OnlineIndexSamplingJob] Sampled index :Tag(name) with 2 unique values in sample of avg size 2 taken from index containing 2 entries
+2016-12-14 13:39:18.620+0000 INFO  [o.n.k.i.a.i.s.OnlineIndexSamplingJob] Sampled index :Tag(name) with 3 unique values in sample of avg size 3 taken from index containing 3 entries
+2016-12-14 13:39:38.620+0000 INFO  [o.n.k.i.a.i.s.OnlineIndexSamplingJob] Sampled index :Tag(name) with 5 unique values in sample of avg size 5 taken from index containing 5 entries
+2016-12-14 13:39:48.620+0000 INFO  [o.n.k.i.a.i.s.OnlineIndexSamplingJob] Sampled index :Tag(name) with 6 unique values in sample of avg size 6 taken from index containing 6 entries
+2016-12-14 13:39:58.620+0000 INFO  [o.n.k.i.a.i.s.OnlineIndexSamplingJob] Sampled index :Tag(name) with 8 unique values in sample of avg size 8 taken from index containing 8 entries
+2016-12-14 13:40:18.779+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [1319]:  Starting check pointing...
+2016-12-14 13:40:18.783+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [1319]:  Starting store flush...
+2016-12-14 13:40:18.844+0000 INFO  [o.n.k.i.s.c.CountsTracker] About to rotate counts store at transaction 1319 to [C:\Users\HP\nosqlhomework\graphdb\neostore.counts.db.a], from [C:\Users\HP\nosqlhomework\graphdb\neostore.counts.db.b].
+2016-12-14 13:40:18.852+0000 INFO  [o.n.k.i.s.c.CountsTracker] Successfully rotated counts store at transaction 1319 to [C:\Users\HP\nosqlhomework\graphdb\neostore.counts.db.a], from [C:\Users\HP\nosqlhomework\graphdb\neostore.counts.db.b].
+2016-12-14 13:40:18.874+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [1319]:  Store flush completed
+2016-12-14 13:40:18.877+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [1319]:  Starting appending check point entry into the tx log...
+2016-12-14 13:40:18.883+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [1319]:  Appending check point entry into the tx log completed
+2016-12-14 13:40:18.885+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [1319]:  Check pointing completed
+2016-12-14 13:40:18.888+0000 INFO  [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Starting log pruning.
+2016-12-14 13:40:18.891+0000 INFO  [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Log pruning complete.
+2016-12-14 13:42:18.621+0000 INFO  [o.n.k.i.a.i.s.OnlineIndexSamplingJob] Sampled index :Tag(name) with 9 unique values in sample of avg size 9 taken from index containing 9 entries
+2016-12-14 13:42:28.621+0000 INFO  [o.n.k.i.a.i.s.OnlineIndexSamplingJob] Sampled index :Tag(name) with 13 unique values in sample of avg size 13 taken from index containing 13 entries
+2016-12-14 13:42:48.620+0000 INFO  [o.n.k.i.a.i.s.OnlineIndexSamplingJob] Sampled index :Tag(name) with 17 unique values in sample of avg size 17 taken from index containing 17 entries
+2016-12-14 13:42:58.620+0000 INFO  [o.n.k.i.a.i.s.OnlineIndexSamplingJob] Sampled index :Tag(name) with 19 unique values in sample of avg size 19 taken from index containing 19 entries
+2016-12-14 13:44:08.620+0000 INFO  [o.n.k.i.a.i.s.OnlineIndexSamplingJob] Sampled index :Tag(name) with 21 unique values in sample of avg size 21 taken from index containing 21 entries
+2016-12-14 13:44:28.620+0000 INFO  [o.n.k.i.a.i.s.OnlineIndexSamplingJob] Sampled index :Tag(name) with 24 unique values in sample of avg size 24 taken from index containing 24 entries
+2016-12-14 13:45:18.915+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [1336]:  Starting check pointing...
+2016-12-14 13:45:18.918+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [1336]:  Starting store flush...
+2016-12-14 13:45:18.979+0000 INFO  [o.n.k.i.s.c.CountsTracker] About to rotate counts store at transaction 1336 to [C:\Users\HP\nosqlhomework\graphdb\neostore.counts.db.b], from [C:\Users\HP\nosqlhomework\graphdb\neostore.counts.db.a].
+2016-12-14 13:45:18.986+0000 INFO  [o.n.k.i.s.c.CountsTracker] Successfully rotated counts store at transaction 1336 to [C:\Users\HP\nosqlhomework\graphdb\neostore.counts.db.b], from [C:\Users\HP\nosqlhomework\graphdb\neostore.counts.db.a].
+2016-12-14 13:45:19.000+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [1336]:  Store flush completed
+2016-12-14 13:45:19.004+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [1336]:  Starting appending check point entry into the tx log...
+2016-12-14 13:45:19.009+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [1336]:  Appending check point entry into the tx log completed
+2016-12-14 13:45:19.012+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [1336]:  Check pointing completed
+2016-12-14 13:45:19.015+0000 INFO  [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Starting log pruning.
+2016-12-14 13:45:19.018+0000 INFO  [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Log pruning complete.
+2016-12-14 13:45:38.621+0000 INFO  [o.n.k.i.a.i.s.OnlineIndexSamplingJob] Sampled index :Tag(name) with 27 unique values in sample of avg size 27 taken from index containing 27 entries
+2016-12-14 13:45:48.620+0000 INFO  [o.n.k.i.a.i.s.OnlineIndexSamplingJob] Sampled index :Tag(name) with 29 unique values in sample of avg size 29 taken from index containing 29 entries
+2016-12-14 13:45:58.620+0000 INFO  [o.n.k.i.a.i.s.OnlineIndexSamplingJob] Sampled index :Tag(name) with 32 unique values in sample of avg size 32 taken from index containing 32 entries
+2016-12-14 13:46:18.620+0000 INFO  [o.n.k.i.a.i.s.OnlineIndexSamplingJob] Sampled index :Tag(name) with 35 unique values in sample of avg size 35 taken from index containing 35 entries
+2016-12-14 13:50:19.042+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [1352]:  Starting check pointing...
+2016-12-14 13:50:19.047+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [1352]:  Starting store flush...
+2016-12-14 13:50:19.108+0000 INFO  [o.n.k.i.s.c.CountsTracker] About to rotate counts store at transaction 1352 to [C:\Users\HP\nosqlhomework\graphdb\neostore.counts.db.a], from [C:\Users\HP\nosqlhomework\graphdb\neostore.counts.db.b].
+2016-12-14 13:50:19.118+0000 INFO  [o.n.k.i.s.c.CountsTracker] Successfully rotated counts store at transaction 1352 to [C:\Users\HP\nosqlhomework\graphdb\neostore.counts.db.a], from [C:\Users\HP\nosqlhomework\graphdb\neostore.counts.db.b].
+2016-12-14 13:50:19.145+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [1352]:  Store flush completed
+2016-12-14 13:50:19.149+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [1352]:  Starting appending check point entry into the tx log...
+2016-12-14 13:50:19.154+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [1352]:  Appending check point entry into the tx log completed
+2016-12-14 13:50:19.158+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [1352]:  Check pointing completed
+2016-12-14 13:50:19.161+0000 INFO  [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Starting log pruning.
+2016-12-14 13:50:19.165+0000 INFO  [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Log pruning complete.
+2016-12-14 13:55:19.189+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [1364]:  Starting check pointing...
+2016-12-14 13:55:19.194+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [1364]:  Starting store flush...
+2016-12-14 13:55:19.231+0000 INFO  [o.n.k.i.s.c.CountsTracker] About to rotate counts store at transaction 1364 to [C:\Users\HP\nosqlhomework\graphdb\neostore.counts.db.b], from [C:\Users\HP\nosqlhomework\graphdb\neostore.counts.db.a].
+2016-12-14 13:55:19.238+0000 INFO  [o.n.k.i.s.c.CountsTracker] Successfully rotated counts store at transaction 1364 to [C:\Users\HP\nosqlhomework\graphdb\neostore.counts.db.b], from [C:\Users\HP\nosqlhomework\graphdb\neostore.counts.db.a].
+2016-12-14 13:55:19.281+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [1364]:  Store flush completed
+2016-12-14 13:55:19.284+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [1364]:  Starting appending check point entry into the tx log...
+2016-12-14 13:55:19.292+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [1364]:  Appending check point entry into the tx log completed
+2016-12-14 13:55:19.295+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [1364]:  Check pointing completed
+2016-12-14 13:55:19.298+0000 INFO  [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Starting log pruning.
+2016-12-14 13:55:19.300+0000 INFO  [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Log pruning complete.
+2016-12-14 14:00:19.326+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [1374]:  Starting check pointing...
+2016-12-14 14:00:19.332+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [1374]:  Starting store flush...
+2016-12-14 14:00:19.492+0000 INFO  [o.n.k.i.s.c.CountsTracker] About to rotate counts store at transaction 1374 to [C:\Users\HP\nosqlhomework\graphdb\neostore.counts.db.a], from [C:\Users\HP\nosqlhomework\graphdb\neostore.counts.db.b].
+2016-12-14 14:00:19.499+0000 INFO  [o.n.k.i.s.c.CountsTracker] Successfully rotated counts store at transaction 1374 to [C:\Users\HP\nosqlhomework\graphdb\neostore.counts.db.a], from [C:\Users\HP\nosqlhomework\graphdb\neostore.counts.db.b].
+2016-12-14 14:00:19.516+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [1374]:  Store flush completed
+2016-12-14 14:00:19.519+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [1374]:  Starting appending check point entry into the tx log...
+2016-12-14 14:00:19.525+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [1374]:  Appending check point entry into the tx log completed
+2016-12-14 14:00:19.528+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [1374]:  Check pointing completed
+2016-12-14 14:00:19.531+0000 INFO  [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Starting log pruning.
+2016-12-14 14:00:19.534+0000 INFO  [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Log pruning complete.
+2016-12-14 14:05:19.558+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [1386]:  Starting check pointing...
+2016-12-14 14:05:19.562+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [1386]:  Starting store flush...
+2016-12-14 14:05:19.582+0000 INFO  [o.n.k.i.s.c.CountsTracker] About to rotate counts store at transaction 1386 to [C:\Users\HP\nosqlhomework\graphdb\neostore.counts.db.b], from [C:\Users\HP\nosqlhomework\graphdb\neostore.counts.db.a].
+2016-12-14 14:05:19.590+0000 INFO  [o.n.k.i.s.c.CountsTracker] Successfully rotated counts store at transaction 1386 to [C:\Users\HP\nosqlhomework\graphdb\neostore.counts.db.b], from [C:\Users\HP\nosqlhomework\graphdb\neostore.counts.db.a].
+2016-12-14 14:05:19.608+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [1386]:  Store flush completed
+2016-12-14 14:05:19.611+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [1386]:  Starting appending check point entry into the tx log...
+2016-12-14 14:05:19.616+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [1386]:  Appending check point entry into the tx log completed
+2016-12-14 14:05:19.619+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by scheduler for time threshold [1386]:  Check pointing completed
+2016-12-14 14:05:19.622+0000 INFO  [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Starting log pruning.
+2016-12-14 14:05:19.626+0000 INFO  [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Log pruning complete.
+2016-12-14 14:09:38.250+0000 INFO  [o.n.c.i.ExecutionEngine] Discarded stale query from the query cache: MATCH (a)-[r]->(b) WHERE id(a) IN {node_ids}
+AND id(b) IN {new_node_ids}
+RETURN r;
+2016-12-14 14:09:38.255+0000 INFO  [o.n.c.i.CypherCompiler] Discarded stale query from the query cache: MATCH (a)-[r]->(b) WHERE id(a) IN {node_ids}
+AND id(b) IN {new_node_ids}
+RETURN r;
+2016-12-14 14:11:59.429+0000 INFO  [o.n.k.i.f.GraphDatabaseFacadeFactory] Shutdown started
+2016-12-14 14:11:59.433+0000 INFO  [o.n.k.i.f.GraphDatabaseFacadeFactory] Database is now unavailable
+2016-12-14 14:11:59.440+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by database shutdown [1386]:  Starting check pointing...
+2016-12-14 14:11:59.443+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by database shutdown [1386]:  Starting store flush...
+2016-12-14 14:11:59.450+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by database shutdown [1386]:  Store flush completed
+2016-12-14 14:11:59.453+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by database shutdown [1386]:  Starting appending check point entry into the tx log...
+2016-12-14 14:11:59.458+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by database shutdown [1386]:  Appending check point entry into the tx log completed
+2016-12-14 14:11:59.461+0000 INFO  [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by database shutdown [1386]:  Check pointing completed
+2016-12-14 14:11:59.464+0000 INFO  [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Starting log pruning.
+2016-12-14 14:11:59.466+0000 INFO  [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Log pruning complete.
+2016-12-14 14:11:59.618+0000 INFO  [o.n.k.i.DiagnosticsManager] --- STOPPING diagnostics START ---
+2016-12-14 14:11:59.618+0000 INFO  [o.n.k.i.DiagnosticsManager] --- STOPPING diagnostics END ---
